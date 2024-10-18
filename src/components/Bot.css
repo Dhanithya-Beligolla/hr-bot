@@ -69,7 +69,7 @@ df-messenger {
       display: block;
   }
 
-  df-messenger {
+  .botalign {
       bottom: 20px; /* Move the chatbot bubble up for smaller screens */
       right: 10px;
   }
@@ -95,6 +95,17 @@ df-messenger {
       font-size: 14px; /* Adjust button font size */
       padding: 10px 20px; /* Smaller padding for buttons on mobile */
   }
+
+  /* Dialogflow Messenger styling */
+  df-messenger {
+    bottom: 10px; /* Adjust position for mobile */
+    right: 10px;
+    width: 75%; /* Make the chatbot take most of the screen width */
+    height: 60%; /* Adjust height for better visibility */
+    border-radius: 10px; /* Add rounded corners for a pop-up effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a pop-up effect */
+    margin-top: 250px;
+}
 }
 
 @media (max-width: 480px) {
