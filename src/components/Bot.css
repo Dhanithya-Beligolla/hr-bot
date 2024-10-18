@@ -1,6 +1,6 @@
 body {
   font-family: 'Google Sans', sans-serif;
-  background-image: url('../assets/Untitled design (1).png');
+  background-image: url('../assets/rm209-ning-20-g.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,14 +55,14 @@ df-messenger {
 @media (max-width: 768px) {
   body {
     font-family: 'Google Sans', sans-serif;
-    background-image: url('../assets/v915-techi-058-f.jpg');
+    background-image: url('../assets/rm209-ning-20-f.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     color: #000;
     text-align: center;
-    margin: 0 auto;
+    
   }
 
   .logo-image img {
@@ -138,4 +138,31 @@ df-messenger {
       font-size: 12px;
       padding: 8px 16px;
   }
+
+  /* Media Queries for iPhone 12 Pro */
+@media (max-width: 390px) {
+  body {
+    background-size: contain;
+    background-position: top center;
+    height: auto;
+  }
+
+  .logo-image img {
+    max-width: 100px; /* Further reduce logo size for iPhone 12 Pro */
+  }
+
+  .container h1 {
+    font-size: 20px; /* Smaller heading for iPhone 12 Pro */
+  }
+
+  df-messenger {
+    bottom: 5px; /* Move chatbot bubble further up */
+    right: 5px;
+  }
+
+  .profile-buttons .button {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+}
 }
