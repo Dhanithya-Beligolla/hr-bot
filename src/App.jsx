@@ -21,7 +21,7 @@ function App ()  {
     auth.onAuthStateChanged((user) => {
       setUser(user);
       // if (user) {
-      //   window.location.href = "https://compliance-bot101.vercel.app/";
+      //   window.location.href = "https://hr-bot-xi.vercel.app/";
       // }
     });
   });
