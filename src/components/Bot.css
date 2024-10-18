@@ -1,6 +1,6 @@
 body {
   font-family: 'Google Sans', sans-serif;
-  background-image: url('../assets/tp244-bg1-02.jpg');
+  background-image: url('../assets/Untitled design (1).png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
 }
 
 .bot-image {
-  max-width: 45%;
+  max-width: 90%;
   min-height: 5%;
 }
 

@@ -4,7 +4,7 @@ import { auth, db } from "./firebase";
 import { doc, getDoc } from "firebase/firestore";
 import Footer from './Footer';
 import logo from '../assets/logo-dfccbank.png';
-import BotImg from '../assets/3156786.png';
+import BotImg from '../assets/hr_text1-removebg.png';
 import bgImg from '../assets/background.png';
 import BgImg1 from '../assets/tp244-bg1-02.jpg'
 
@@ -90,8 +90,8 @@ function Bot() {
         <p>Loading...</p>
       )}
        <div className='container' style={{textAlign:"left"}}>
-      <h1 style={{fontSize:"40px",fontWeight:"bold", paddingTop:"20px", paddingBottom:"20px" }}>Welcome to DFCC HR Bot</h1>
-      <p className='p1'>Ask your HR related queries here.</p>
+      <h1 style={{fontSize:"40px",fontWeight:"bold", paddingTop:"20px", paddingBottom:"20px" }}>Welcome to DFCC HR Support Assist</h1>
+      <p className='p1'>Ask your HR related questions here.</p>
      </div>
 
         <div className="bot-image">
