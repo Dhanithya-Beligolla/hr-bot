@@ -24,6 +24,7 @@ body {
 .bot-image {
   max-width: 90%;
   min-height: 5%;
+  margin-right: 10%;
 }
 
 .p1 {
@@ -38,13 +39,13 @@ df-messenger {
   position: fixed;
   --df-messenger-font-color: #000;
   --df-messenger-font-family: Google Sans;
-  --df-messenger-chat-background: #f3f6fc;
-  --df-messenger-message-user-background: #d3e3fd;
-  --df-messenger-message-bot-background: #fff;
+  --df-messenger-chat-background: #ffbcc2;
+  --df-messenger-message-user-background: #ffffff;
+  --df-messenger-message-bot-background: #cccccc;
   bottom: 0;
   right: 0;
   top: 0;
-  width: 350px;
+  width: 470px;
   text-align: left;
 }
 
