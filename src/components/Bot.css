@@ -54,9 +54,15 @@ df-messenger {
 /* Media Queries for mobile devices */
 @media (max-width: 768px) {
   body {
-      background-size: cover; /* Keep cover for smaller devices */
-      background-attachment: fixed; /* Fix the background for a smoother scrolling effect */
-      height: auto;
+    font-family: 'Google Sans', sans-serif;
+    background-image: url('../assets/v915-techi-058-f.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .logo-image img {
