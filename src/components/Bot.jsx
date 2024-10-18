@@ -9,8 +9,6 @@ import bgImg from '../assets/background.png';
 import BgImg1 from '../assets/tp244-bg1-02.jpg'
 
 
-
-
 function Bot() {
   const [scriptLoaded, setScriptLoaded] = useState(false);
   const [userDetails, setUserDetails] = useState(null);
