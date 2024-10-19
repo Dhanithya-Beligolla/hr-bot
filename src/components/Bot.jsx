@@ -34,7 +34,7 @@ function Bot() {
   async function handleLogout() {
     try {
       await auth.signOut();
-      window.location.href = "hhttps://hr-bot-xi.vercel.app/";
+      window.location.href = "https://hr-bot-xi.vercel.app";
       console.log("User logged out successfully!");
     } catch (error) {
       console.error("Error logging out:", error.message);
