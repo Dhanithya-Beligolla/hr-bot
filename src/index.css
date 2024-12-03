@@ -11,7 +11,10 @@
 .input {
   @apply border border-gray-400 p-3 outline-none rounded-md text-sm;
 }
-
+.button-logout {
+  @apply bg-gray-500 text-white font-bold py-2 px-4 rounded-md hover:opacity-75; 
+  @layer bottom;
+}
 
 .weak {
   color: red;
