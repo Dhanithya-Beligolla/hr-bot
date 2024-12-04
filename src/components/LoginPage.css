@@ -1,32 +1,32 @@
 .logo-image {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 /* Custom styles for mobile responsiveness */
 @media (max-width: 640px) {
-  .background-image {
-    background-position: center;
-    background-size: cover;
-  }
+.background-image {
+  background-position: center;
+  background-size: cover;
+}
 
-  .max-w-lg {
-    max-width: 90%;
-  }
+.max-w-lg {
+  max-width: 90%;
+}
 
-  .text-xl {
-    font-size: 1.25rem;
-  }
+.text-xl {
+  font-size: 1.25rem;
+}
 }
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
-  .background-image {
-    background-position: center;
-    background-size: cover;
-  }
+.background-image {
+  background-position: center;
+  background-size: cover;
+}
 
-  .max-w-lg {
-    max-width: 100%;
-  }
+.max-w-lg {
+  max-width: 100%;
+}
 }
