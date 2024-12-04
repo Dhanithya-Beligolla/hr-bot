@@ -104,7 +104,7 @@ function Bot() {
           max-query-length="-1"
           allow-feedback="all">
           <df-messenger-chat
-          chat-title="Hira">
+          chat-title="Meet HR">
           </df-messenger-chat>
         </df-messenger>
 
