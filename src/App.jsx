@@ -20,9 +20,9 @@ function App ()  {
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       setUser(user);
-      // if (user) {
-      //   window.location.href = "https://hr-bot-xi.vercel.app/";
-      // }
+      if (user) {
+        window.location.href = "/";
+      }
     });
   });
 
