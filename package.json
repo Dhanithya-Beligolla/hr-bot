@@ -18,6 +18,7 @@
     "react-scripts": "^5.0.1",
     "react-styled-components": "^0.1.11",
     "react-toastify": "^10.0.5",
+    "scripts": "^0.1.0",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
