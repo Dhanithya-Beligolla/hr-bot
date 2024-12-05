@@ -20,9 +20,9 @@ function App ()  {
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       setUser(user);
-      if (user) {
-        window.location.href = "/";
-      }
+      // if (user) {
+      //   window.location.href = "/";
+      // }
     });
   });
 

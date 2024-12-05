@@ -99,7 +99,7 @@ function Bot() {
         <div className='bot-align'>
         <df-messenger
           project-id="noted-casing-438604-a8"
-          agent-id="1ede874e-3cce-4577-8718-2ae0ed9bca66"
+          agent-id="222d572c-409d-43f5-a536-faebcb53b043"
           language-code="en"
           max-query-length="-1"
           allow-feedback="all">
