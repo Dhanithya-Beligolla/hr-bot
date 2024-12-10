@@ -82,7 +82,7 @@ function Bot() {
         {userDetails ? (
         <div className="profile-card">
             
-          <h1 style={{fontSize:"35px",fontWeight:"bold", paddingTop:"30px", paddingBottom:"20px",textAlign:"center", fontFamily:"revert-layer" }}>Hello {userDetails.firstName} {userDetails.lastName} </h1>
+          <h1 style={{fontSize:"35px",fontWeight:"bold", paddingTop:"30px", paddingBottom:"20px",textAlign:"center", fontFamily:"revert-layer"  }}>Hello {userDetails.firstName} {userDetails.lastName} </h1>
         </div>
       ) : (
         <p>Loading...</p>
